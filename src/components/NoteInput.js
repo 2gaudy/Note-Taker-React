@@ -6,12 +6,10 @@ const NoteContext = React.createContext();
 
 const NotesInput = () => {
 
-
-    
     const [note, setNote] = React.useState('Enter note here: ');
 
     function AddNote(note){
-        setState(e.target.value)
+        setState(note.target.value)
         
     }
     
